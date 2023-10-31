@@ -3,7 +3,7 @@ import React from "react";
 function Header(){
     return(
         <nav>
-            <h1 className={"logo"}>Keeper</h1>
+            <h1 className={"logo"}>Note Keeper</h1>
         </nav>
     )
 }

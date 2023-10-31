@@ -26,7 +26,24 @@ nav{
     box-shadow: 0 2px 0 0 rgba(17, 17, 17, 0.278);
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* #Noter */
+.input-box{
+    
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 1px var(--mainColor);
+    border-radius: 3px;
+    width: 80vw;
+    margin: 15px;
+    position: relative;
+}
+
 .note-box{
     float: left;
     padding: 10px;
@@ -35,21 +52,43 @@ nav{
     border-radius: 3px;
     width: 200px;
     margin: 15px;
+    position: relative;
 }
 
 .note-box h2{
     margin: 3px 0;
 }
 
-.note-box:hover{
-    transform: scale(1.1);
-    
-}
+
 
 .noter_flexbox{
-    margin-bottom: 10px;
-    height: 100vh;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input-box input{
+    font-size: 16px;
+    border: none;
+    width: 75vw;
+    padding: 8px 4px;
+}
+
+.extraBox{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20%;
+    background-color: var(--mainColor);
+    position: absolute;
+    right: -17px;
+    bottom: -11px;
+}
+
+.extraBox:hover{
+    transform: scale(1.1);
+    transition: transform ease-out .1s;
 }
 
 /* #Footer */
