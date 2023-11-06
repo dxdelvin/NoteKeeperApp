@@ -1,7 +1,11 @@
 import React from 'react'
 
 export default function Extrabox(props){
+    function handleClick(){
+            props.onClick()    
+    }
+
     return(
-        <div className="extraBox">{props.action}</div>
+        <div onClick={handleClick} className="extraBox">{props.action}</div>
     )
 }

@@ -69,7 +69,8 @@ nav{
     flex-wrap: wrap;
 }
 
-.input-box input{
+.input-box input,
+.input-box textarea {
     font-size: 16px;
     border: none;
     width: 75vw;
