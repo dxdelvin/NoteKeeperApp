@@ -1,0 +1,112 @@
+:root{
+    --mainColor: rgb(25, 72, 113);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(233, 233, 233);
+    background-image: url("https://www.transparenttextures.com/theme/images/transparent.png");
+}
+
+/* #Header */
+
+.logo{
+    color:rgb(235, 235, 235);
+    font-family: Poppins;
+    font-size: 1.8rem;
+}
+
+nav{
+    width: 100%;
+    padding: 12px 25px;
+    background-color: var(--mainColor);
+    box-shadow: 0 2px 0 0 rgba(17, 17, 17, 0.278);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #Noter */
+.input-box{
+    
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 1px var(--mainColor);
+    border-radius: 3px;
+    width: 80vw;
+    margin: 15px;
+    position: relative;
+}
+
+.note-box{
+    float: left;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 1px var(--mainColor);
+    border-radius: 3px;
+    width: 200px;
+    margin: 15px;
+    position: relative;
+}
+
+.note-box h2{
+    margin: 3px 0;
+}
+
+
+
+.noter_flexbox{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input-box input,
+.input-box textarea {
+    font-size: 16px;
+    border: none;
+    width: 75vw;
+    padding: 8px 4px;
+}
+
+.input-box textarea {
+    width: 79vw;
+}
+
+.extraBox{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20%;
+    background-color: var(--mainColor);
+    position: absolute;
+    right: -17px;
+    bottom: -11px;
+}
+
+.extraBox:hover{
+    transform: scale(1.1);
+    transition: transform ease-out .1s;
+}
+
+/* #Footer */
+.footer{
+    background-color: var(--mainColor);
+    position: fixed;
+     bottom: 0;
+    height: 65px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 -2px 0 0 rgba(17, 17, 17, 0.278);
+}
