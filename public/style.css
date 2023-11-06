@@ -9,6 +9,7 @@ body{
     width: 100%;
     overflow-x: hidden;
     background-color: rgb(233, 233, 233);
+    background-image: url("https://www.transparenttextures.com/theme/images/transparent.png");
 }
 
 /* #Header */
@@ -75,6 +76,10 @@ nav{
     border: none;
     width: 75vw;
     padding: 8px 4px;
+}
+
+.input-box textarea {
+    width: 79vw;
 }
 
 .extraBox{

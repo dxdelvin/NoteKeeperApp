@@ -2,6 +2,7 @@ import React from "react";
 import Title from "./Title";
 import Content from "./Content";
 import Extrabox from "./Extrabox";
+import DeleteIcon from '@mui/icons-material/Delete';
 
 function Note(props){
     function handleClick(){
@@ -13,7 +14,7 @@ function Note(props){
         <div className={"note-box"}>
             <Title title={props.title}/>
             <Content note={props.note}/>
-            <Extrabox onClick={handleClick} action="Delete"/>
+            <Extrabox onClick={handleClick} action=<DeleteIcon />/>
         </div>
     )
 }
